@@ -61,7 +61,7 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="https://drive.google.com/file/d/14t-gb55ZQauWKWjYcG4eaaun7z3IRJis/view?usp=drive_link"
+                href="https://drive.google.com/file/d/your-google-drive-id/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all duration-300 hover:scale-105 animate-fadeIn"
@@ -72,16 +72,33 @@ const Hero = () => {
             </div>
 
             <div className="flex gap-4 mt-4">
-              {[Github, Linkedin, Instagram].map((Icon, index) => (
-                <a
-                  key={index}
-                  href="#"
-                  className="p-3 text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-125 hover:rotate-12 social-icon"
-                  style={{ animationDelay: `${1.5 + index * 0.1}s` }}
-                >
-                  <Icon className="h-6 w-6" />
-                </a>
-              ))}
+              <a
+                href="https://github.com/NiravDev3039"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-125 hover:rotate-12 social-icon"
+                style={{ animationDelay: '1.5s' }}
+              >
+                <Github className="h-6 w-6" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nirav-patel-22888212a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-125 hover:rotate-12 social-icon"
+                style={{ animationDelay: '1.6s' }}
+              >
+                <Linkedin className="h-6 w-6" />
+              </a>
+              <a
+                href="https://www.instagram.com/itz__nirav__"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-125 hover:rotate-12 social-icon"
+                style={{ animationDelay: '1.7s' }}
+              >
+                <Instagram className="h-6 w-6" />
+              </a>
             </div>
           </div>
 
