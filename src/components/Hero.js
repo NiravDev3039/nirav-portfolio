@@ -61,7 +61,7 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="https://drive.google.com/file/d/your-google-drive-id/view"
+                href="https://drive.google.com/file/d/1BX0qJWq4vjVFR2DX2VLMImgP9icZvyuF/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all duration-300 hover:scale-105 animate-fadeIn"
